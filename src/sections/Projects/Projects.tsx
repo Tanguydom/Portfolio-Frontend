@@ -14,8 +14,8 @@ interface Project {
 const projects: Project[] = [
     { id: 1, name: "Filmotech", description: "A movie directory app built with pure HTML, CSS, and JavaScript.", techStack: "HTML / CSS / JavaScript", gitRepo: "https://github.com/Tanguydom/Portfolio-Movies", demoUrl: "http://localhost:8081" },
     { id: 2, name: "Ruinard", description: "Creating an exact copy of a commercial site like Ruinart", techStack: "Html / CSS / Javascript", gitRepo: "https://github.com/Tanguydom/Portfolio-Ruinard", demoUrl: "http://localhost:8083" }, // OK
-    { id: 3, name: "Serveur SMTP / Express", description: "Creating backend to send email", techStack: "React / Tailwind / Framer Motion", gitRepo: "https://github.com/Tanguydom/Portfolio-SMNP", demoUrl: "http://localhost:8080/api-docs/" }, //OK
-    { id: 4, name: "My Portfolio", description: "Creating my portfolio using React", techStack: "React / Tailwind / Framer Motion", gitRepo: "", demoUrl: "http://localhost:3000/" },
+    { id: 3, name: "Serveur SMTP / Express", description: "Creating backend to send email and get my movie from my API", techStack: "React / Tailwind / Framer Motion", gitRepo: "https://github.com/Tanguydom/Portfolio-SMNP", demoUrl: "http://localhost:8080/api-docs/" }, //OK
+    { id: 4, name: "My Portfolio", description: "Creating my portfolio using React", techStack: "React / Tailwind / Framer Motion", gitRepo: "https://github.com/Tanguydom/Portfolio-Frontend", demoUrl: "http://localhost:3000/" }, //OK
     { id: 5, name: "Real Estate App", description: "A real estate web application built with React for frontend.", techStack: "React / TypeScript / TailwindCSS", gitRepo: "", demoUrl: "https://localhost:8082" },
     { id: 6, name: "API Express (Real Estate)", description: "A real estate API built with Express.js and documented with Swagger.", techStack: "Node.js / Express / Swagger", gitRepo: "", demoUrl: "https://localhost:8084" },
     { id: 7, name: "API Flask (Real Estate)", description: "A real estate API built with Flask and documented with Swagger.", techStack: "Python / Flask / Swagger", gitRepo: "", demoUrl: "https://localhost:8085" },
