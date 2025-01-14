@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    padding-top: 20rem; /* 80px de padding pour compenser la navbar */
+}
+
+
