@@ -13,8 +13,11 @@ RUN npm install
 # Copier tous les fichiers du projet dans le conteneur
 COPY . .
 
-# Exposer le port 3000 pour Next.js
-EXPOSE 3000
+# Construire l'application pour la production
+RUN npm run build
 
-# Commande pour démarrer l'application en mode développement
+# Exposer le port 8080 pour Vite.js (ou le port défini dans vite.config.js)
+EXPOSE 8080
+
+# Commande pour démarrer l'application
 CMD ["npm", "run", "dev"]

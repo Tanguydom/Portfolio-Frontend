@@ -14,7 +14,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     try {
-        const response = await fetch('http://localhost:8080/email/sendEmail', {  // Port du backend
+        const response = await fetch('http://tanguy-domergue.fr/movies-api/email/sendEmail', {  // Port du backend
             method: 'POST',
             body: JSON.stringify(formData),
             headers: {
